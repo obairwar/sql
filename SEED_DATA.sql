@@ -6,10 +6,10 @@ USE eCommerce;
 -- ----------------------------------------------------------------------------
 
 INSERT INTO categories (category_name, description) VALUES
-    ('Electronics',            'Gadgets, computer accessories and audio equipment'),
+    ('Electronicccs',            'Gadgets, computer accessories and audio equipment'),
     ('Home & Kitchen',         'Appliances and tools for cooking and the home'),
     ('Books',                  'Programming, productivity and self-improvement books'),
-    ('Clothing',               'Everyday apparel for men and women'),
+    ('Clooohing',               'Everyday apparel for men and women'),
     ('Sports & Outdoors',      'Fitness, camping and outdoor gear'),
     ('Beauty & Personal Care', 'Skincare, haircare and personal grooming products');
 

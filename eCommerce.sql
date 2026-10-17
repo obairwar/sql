@@ -107,3 +107,24 @@ CREATE TABLE payments (
 -- between them and carries its own data (quantity, unit_price), which is
 -- exactly how a many-to-many relationship is modeled in SQL.
 
+
+INSERT INTO customers(
+	first_name,
+    last_name,
+    email,
+    phone,
+    city,
+    country
+)
+VALUES
+	('Alice',    'Johnson',  'alice.johnson@email.com',  '212-555-0101', 'New York',      'USA'),
+	('Brian',    'Kim',      'brian.kim@email.com',      NULL,           'Los Angeles',   'USA');
+
+
+INSERT INTO categories(category_name,description)
+VALUES
+('DAIRY','DAIRY PRODUCTS'),
+('ELECTRONICS','TECH PRODUCTS'),
+('CLOTHING ','CLOTHERS DESCRIPTION');
+
+SELECT * FROM categories;
